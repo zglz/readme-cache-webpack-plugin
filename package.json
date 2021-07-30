@@ -22,8 +22,7 @@
     "build": "gulp build"
   },
   "files": [],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-eslint": "8.2.1",
