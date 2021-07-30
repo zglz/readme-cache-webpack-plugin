@@ -1,0 +1,45 @@
+{
+  "name": "readme-cache-webpack-plugin",
+  "version": "0.0.3",
+  "description": "The readme-cache-webpack-plugin allow to Caches the result of readme-original-loader on disk",
+  "author": "张广亮 <微信：15002277335>",
+  "license": "MIT",
+  "homepage": "",
+  "changelog": "",
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "files": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.2.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "del": "3.0.0",
+    "gulp": "4.0.0",
+    "gulp-babel": "7.0.1"
+  },
+  "keywords": [
+    "webpack",
+    "markdown",
+    "readme",
+    "cache"
+  ]
+}
