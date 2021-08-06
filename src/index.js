@@ -68,7 +68,7 @@ class ReadmeCacheWebpackPlugin {
 }
 
 function writeFile(filePath,readmeOriginalMap){
-  fs.writeFile(filePath, JSON.stringify(readmeOriginalMap), { encoding: 'utf8' }, err => {
+  fs.writeFile(filePath, readmeOriginalMap, { encoding: 'utf8' }, err => {
     if (err){
       return;
     }
