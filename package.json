@@ -1,6 +1,6 @@
 {
   "name": "readme-cache-webpack-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The readme-cache-webpack-plugin allow to Caches the result of readme-original-loader on disk",
   "author": "张广亮 <微信：15002277335>",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "start": "gulp watch",
     "build": "gulp build"
   },
-  "files": [],
+  "files": ["lib"],
   "dependencies": {},
   "devDependencies": {
     "babel-core": "6.26.0",
